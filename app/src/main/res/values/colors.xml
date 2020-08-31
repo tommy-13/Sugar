@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006666</color>
+    <color name="colorPrimaryDark">#006666</color>
+    <color name="colorAccent">#006666</color>
+
+    <color name="panelBack">#efffef</color>
+    <color name="panelBorder">#338833</color>
+
+    <color name="tableHeadBack">#0000BB</color>
+    <color name="tableHeadFront">#FFFFFF</color>
+
+    <color name="overview_panel">#EEEEEE</color>
+    <color name="progressbar_back">#555555</color>
+    <color name="progressbar_good">#00DD00</color>
+    <color name="progressbar_bad">#DD0000</color>
+    <color name="progressbar_attention">#FFEE00</color>
+    <color name="progressbar_goal">#F0F0F0</color>
+    <color name="progressbar_border">#000000</color>
+
+    <color name="history_graph">#000000</color>
+
+    <color name="inputButton">#FFFFFF</color>
+</resources>

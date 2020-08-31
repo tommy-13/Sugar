@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="600dp"
+    android:paddingBottom="@dimen/dialog_vertical_margin"
+    android:paddingLeft="@dimen/dialog_horizontal_margin"
+    android:paddingRight="@dimen/dialog_horizontal_margin"
+    android:paddingTop="@dimen/dialog_vertical_margin">
+
+    <AutoCompleteTextView
+        android:id="@+id/input_dialog_input"
+        android:layout_width="0dp"
+        android:layout_weight="35"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/edit_text"
+        android:completionThreshold="1"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_weight="10"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/input_dialog_cancel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="26"
+        android:text="@string/button_cancel"
+        android:textColor="#ffffff"
+        android:background="@drawable/standard_button"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/input_dialog_ok"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="26"
+        android:text="@string/button_ok"
+        android:textColor="#ffffff"
+        android:background="@drawable/standard_button"/>
+
+
+
+</LinearLayout>

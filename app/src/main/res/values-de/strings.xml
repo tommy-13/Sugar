@@ -1,0 +1,186 @@
+<resources>
+    <string name="app_name">Nährstoffe</string>
+
+    <string name="label_name">Name</string>
+    <string name="label_sum">Summe</string>
+
+    <string name="delete">Löschen</string>
+    <string name="imexport">Import/Export</string>
+    <string name="settings">Einstellungen</string>
+
+    <string name="settings_nutrient_one_label">Nährstoff 1</string>
+    <string name="settings_nutrient_two_label">Nährstoff 2</string>
+    <string name="settings_nutrient_three_label">Nährstoff 3</string>
+
+    <string name="settings_text_empty_field">Kein Feld darf leer sein!</string>
+
+    <string name="delete_title">Löschen und Reset</string>
+    <string name="single_delete_info"><b>Hinweis:</b> Einzelne Einträge können durch einen langen Klick gelöscht werden!</string>
+    <string name="label_delete_data">Daten löschen</string>
+    <string name="label_delete_data_until">Löschen bis einschließlich:</string>
+    <string name="button_delete_data">Löschen</string>
+    <string name="delete_food_items_dialog_title">Daten löschen</string>
+    <string name="delete_food_items_dialog_message">Sollen die Daten wirklich gelöscht werden?</string>
+
+    <string name="imexport_title">Import und Export</string>
+    <string name="imexport_info"><b>Hinweis:</b> Daten werden im Ordner <i>Nutrients</i> gespeichert. Import-Dateien müssen in diesem Ordner liegen!</string>
+    <string name="imexport_category_overwrite">Vorhandene Kategorien überschreiben</string>
+    <string name="storage_not_writeable">Es kann nicht auf den Datenträger zugegriffen werden!</string>
+    <string name="storage_not_readable">Es kann nicht auf den Datenträger zugegriffen werden!</string>
+    <string name="file_not_createable">Datei kann nicht erzeugt werden!</string>
+    <string name="file_not_importable">Import fehlgeschlagen!</string>
+    <string name="file_not_available">Datei wurde nicht gefunden!</string>
+    <string name="savings_folder">Nutrients</string>
+    <string name="import_success_settings">Einstellungen wurden importiert!</string>
+    <string name="import_success_categories">Kategorien wurden importiert!</string>
+    <string name="export_success_settings">Einstellungen wurden exportiert!</string>
+    <string name="export_success_categories">Kategorien wurden exportiert!</string>
+
+    <string name="alert_dialog_file_exists_title">Export</string>
+    <string name="error_filename_empty">Dateiname benötigt!</string>
+    <string name="alert_dialog_file_exists_message">Datei existiert bereits. Überschreiben?</string>
+
+    <string name="default_setting_filename">App-Nährstoffe-Einstellungen</string>
+    <string name="default_category_filename">App-Nährstoffe-Kategorien</string>
+
+
+    <string name="default_unit_foods">g</string>
+    <string name="default_unit_drinks">ml</string>
+    <string name="default_nutrient_one">Energie</string>
+    <string name="default_unit_one">kcal</string>
+    <string name="default_nutrient_two">Zucker</string>
+    <string name="default_unit_two">g</string>
+    <string name="default_nutrient_three">Fett</string>
+    <string name="default_unit_three">g</string>
+
+    <string name="per">je</string>
+    <string name="in">in</string>
+    <string name="bracket_open">(</string>
+    <string name="bracket_close">)</string>
+    <string name="divider">/</string>
+
+    <string name="label_date">Datum</string>
+    <string name="label_category">Kategorie</string>
+
+    <string name="average">Durchschnitt</string>
+
+    <string name="label_nutrients">Nährstoffe</string>
+    <string name="label_amount_blank">Menge</string>
+
+    <string name="label_food_note">Beschreibung</string>
+    <string name="default_note">### Keine Beschreibung ###</string>
+
+    <string name="label_goal">Ziel</string>
+    <string name="label_unit">Einheit</string>
+    <string name="label_units">Einheiten</string>
+    <string name="label_drinks">Getränke</string>
+    <string name="label_foods">Essen</string>
+
+    <string name="label_category_name">Name</string>
+    <string name="label_categories">Kategorien</string>
+    <string name="label_filename">Dateiname</string>
+
+    <string name="button_yes">Ja</string>
+    <string name="button_no">Nein</string>
+    <string name="button_ok">OK</string>
+    <string name="button_save">Speichern</string>
+    <string name="button_cancel">Abbrechen</string>
+    <string name="button_clear_categories">Alle Kategorien löschen</string>
+    <string name="button_reset_categories">Kategorien zurücksetzen</string>
+    <string name="button_reset_values">Ziele zurücksetzen</string>
+    <string name="button_reset_settings">Einstellungen zurücksetzen</string>
+    <string name="button_import">Import</string>
+    <string name="button_export">Export</string>
+
+    <string name="goals_every_day_separate">Jeden Tag einzeln einstellen</string>
+    <string name="goals_every_day">Gesamteinstellung</string>
+    <string name="goals_not_every_day">Tägliche Einstellung</string>
+
+    <string name="tabTitleOverview">Heute</string>
+    <string name="tabTitleList">Liste</string>
+    <string name="tabTitleHistory">Verlauf</string>
+    <string name="tabTitleCategories">Kategorien</string>
+
+    <string name="monday">Montag</string>
+    <string name="tuesday">Dienstag</string>
+    <string name="wednesday">Mittwoch</string>
+    <string name="thursday">Donnerstag</string>
+    <string name="friday">Freitag</string>
+    <string name="saturday">Samstag</string>
+    <string name="sunday">Sonntag</string>
+
+    <string name="add_item">+</string>
+
+
+    <string name="food_item_delete_dialog_title">Kategorie: </string>
+    <string name="food_item_delete_dialog_message">Soll der Eintrag endgültig gelöscht werden?</string>
+    <string name="food_item_delete_dialog_btpositiv">Ja</string>
+    <string name="food_item_delete_dialog_btnegativ">Nein</string>
+
+    <string name="food_item_dialog_title_edit">Eintrag ändern</string>
+    <string name="food_item_dialog_title_new">Neuen Eintrag anlegen</string>
+    <string name="food_item_dialog_btCalculate">Werte berechnen</string>
+    <string name="food_item_dialog_error_empty_name">Gib eine Kategorie ein!</string>
+    <string name="food_item_dialog_error_unknown_category">Unbekannte Kategorie!</string>
+
+    <string name="preset_cola">Cola</string>
+    <string name="preset_fanta">Fanta</string>
+    <string name="preset_apfelsaft">Apfelsaft</string>
+    <string name="preset_milch">Milch</string>
+    <string name="preset_tee">Tee</string>
+    <string name="preset_kaffee">Kaffee</string>
+    <string name="preset_orangensaft">Orangensaft</string>
+    <string name="preset_bier">Bier</string>
+    <string name="preset_wein">Wein</string>
+    <string name="preset_schnaps">Schnaps</string>
+    <string name="preset_fischstaebchen">Fischstäbchen</string>
+    <string name="preset_kopfsalat">Kopfsalat</string>
+    <string name="preset_kartoffelsalat">Kartoffelsalat</string>
+    <string name="preset_pasta">Nudeln</string>
+    <string name="preset_pommes">Pommes</string>
+    <string name="preset_spaetzle">Spätzle</string>
+    <string name="preset_brot">Brot</string>
+    <string name="preset_linsen">Linsen</string>
+    <string name="preset_spaghetti_bolognese">Spaghetti Bolognese</string>
+    <string name="preset_schweineschnitzel">Schweineschnitzel</string>
+    <string name="preset_maultaschen">Maultaschen</string>
+    <string name="preset_wurstsalat">Wurstsalat</string>
+    <string name="preset_wurst">Wurst</string>
+    <string name="preset_gulaschsuppe">Gulaschsuppe</string>
+    <string name="preset_gemuesebruehe">Gemüsebrühe</string>
+    <string name="preset_pfannkuchen">Pfannkuchen</string>
+    <string name="preset_schokolade">Schokolade</string>
+    <string name="preset_gummibaerchen">Gummibärchen</string>
+    <string name="preset_kartoffelchips">Kartoffelchips</string>
+
+    <string name="overview_goal">Ziel: </string>
+    <string name="overview_sum">Summe: </string>
+
+    <string name="label_history_time">Anzahl Tage</string>
+    <string name="history_time_dialog_title">Angezeigte Tage</string>
+    <string name="dialog_history_button_min">Min.</string>
+    <string name="dialog_history_button_standard">Normal</string>
+    <string name="dialog_history_button_max">Max.</string>
+
+    <string name="category_dialog_title_new">Neue Kategorie anlegen</string>
+    <string name="category_dialog_title_edit">Kategorie ändern</string>
+    <string name="category_dialog_error_empty_name">Gib einen Namen ein!</string>
+    <string name="category_dialog_error_duplicate_name">Kategorie schon vorhanden!</string>
+
+    <string name="delete_category_dialog_title">Kategorie: </string>
+    <string name="delete_category_dialog_message">Soll die Kategorie endgültig gelöscht werden?</string>
+    <string name="delete_all_categories_dialog_title">Alle Kategorien löschen</string>
+    <string name="delete_all_categories_dialog_message">Sollen wirklich alle Kategorien gelöscht werden?</string>
+    <string name="reset_categories_dialog_title">Kategorien zurücksetzen</string>
+    <string name="reset_categories_dialog_message">Sollen die Kategorien auf die Anfangseinstellungen zurückgesetzt werden?</string>
+    <string name="reset_goals_dialog_title">Ziele zurücksetzen</string>
+    <string name="reset_goals_dialog_message">Sollen alle Ziele auf die Default-Werte gesetzt werden?</string>
+    <string name="settings_reset_all_fields_dialog_title">Einstellungen zurücksetzen</string>
+    <string name="settings_reset_all_fields_dialog_message">Sollen alle Nährstoff-Namen und Einheiten auf die Default-Werte gesetzt werden?</string>
+
+    <string name="top_test">ADS ADS ADS ADS</string>
+    <string name="piece">Stück</string>
+    <string name="pieces">Anzahl</string>
+    <string name="amount_per_piece">Menge pro Stück</string>
+    <string name="file_already_exists">Die Datei existiert bereits. Bitte vorher Löschen!</string>
+</resources>

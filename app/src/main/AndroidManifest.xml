@@ -1,0 +1,29 @@
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.tommy13.sugar">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission."/>
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_pyramid"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="de.tommy13.sugar.general.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <!--category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="http"
+                    android:host="www.tommy13.sugar.de"/-->
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
