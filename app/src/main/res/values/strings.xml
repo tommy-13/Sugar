@@ -23,7 +23,7 @@
     <string name="delete_food_items_dialog_message">Do really want to delete the Data?</string>
 
     <string name="imexport_title">Import and Export</string>
-    <string name="imexport_info"><b>Hint:</b> Files are saved in the folder <i>Nutrients</i>. Import files must be in this folder!</string>
+    <string name="imexport_info"><b>Hint:</b> Files are saved in the folder <i>Nutrients</i>. Files to import must also be in this folder!</string>
     <string name="imexport_category_overwrite">Overwrite existing categories</string>
     <string name="storage_not_writeable">No access to the data storage!</string>
     <string name="storage_not_readable">No access to the data storage!</string>
